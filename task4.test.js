@@ -1,5 +1,4 @@
-
-const capitalize = require('./task4');
+const capitalize = require('./task4.js');
 
 test('capitalize "harriet" to return "Harriet"', () => {
   expect(capitalize('harriet')).toBe('Harriet');
@@ -12,4 +11,3 @@ test('capitalize "Microverse" to return "Microverse"', () => {
 test('capitalize "HARRIET" to return "Harriet"', () => {
   expect(capitalize('harriet')).toBe('Harriet');
 });
-
